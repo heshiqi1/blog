@@ -2,10 +2,10 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Chatty garden",
-  description: "I hope I can grow in here",
+  title: "Balance",
+  description: "Enjoy life, Enjoy work",
   // @ts-ignore
-  head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' ? '/blog/favicon.ico' : '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' ? '/blog/taiji.svg' : '/taiji.svg' }]],
   // @ts-ignore
   base: process.env.NODE_ENV === 'production' ? '/blog/' : '/',
   lastUpdated: true,
@@ -13,12 +13,13 @@ export default defineConfig({
   outDir: 'dist',
 
   themeConfig: {
-    logo: '/heart.svg',
+    logo: '/taiji.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '前端技术', link: '/docs/font-end/', activeMatch: 'font-end/' },
       { text: '后端技术', link: '/docs/back-end/', activeMatch: '/back-end/' },
-      { text: '山茶随记', link: '/docs/life/', activeMatch: '/life/' },
+      { text: '测试技术', link: '/docs/test/', activeMatch: '/test/' },
+      { text: '随想随记', link: '/docs/life/', activeMatch: '/life/' },
       { text: '关于我', link: '/docs/about-me/', activeMatch: '/about-me/' }
     ],
 
@@ -48,8 +49,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '你如果追求完美，将永远无法感到满足（完美主义陷阱）。 援引文章：<a href="https://www.163.com/dy/article/G7HM1IUS0541HJGS.html" style="color:blue;">有一种优秀，叫做“不追求完美”</a>',
-      copyright: '<span style="color:red;">人永远没有准备充分的时候，只有准备差不多了，敢想敢做，然后上场，去收获此阶段的成果。</span>'
+      message: '知道你想要做什么，知道你的能力边界，快乐成长',
+      copyright: '<span style="color:red;">格物致知</span>'
     }
   }
 })

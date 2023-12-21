@@ -10,7 +10,7 @@
         "preview": "vitepress preview --port 8080"
     },
     "keywords": [],
-    "author": "yi.yang",
+    "author": "shiqi.he",
     "license": "ISC",
     "devDependencies": {
         "vitepress": "1.0.0-rc.20",
