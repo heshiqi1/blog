@@ -5,9 +5,9 @@ export default defineConfig({
   title: "Chatty garden",
   description: "I hope I can grow in here",
   // @ts-ignore
-  head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' ? '/chatty-garden/favicon.ico' : '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' ? '/blog/favicon.ico' : '/favicon.ico' }]],
   // @ts-ignore
-  base: process.env.NODE_ENV === 'production' ? '/chatty-garden/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/blog/' : '/',
   lastUpdated: true,
   cleanUrls: true,
   outDir: 'dist',
@@ -44,7 +44,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yyi0708/chatty-garden' }
+      { icon: 'github', link: 'https://github.com/yyi0708/blog' }
     ],
 
     footer: {

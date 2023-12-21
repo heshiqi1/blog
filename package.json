@@ -1,19 +1,19 @@
 {
-  "name": "chatty-garden",
-  "version": "1.0.1",
-  "description": "I'm trying to get it",
-  "main": "index.js",
-  "homepage": "https://yyi0708.github.io/chatty-garden/",
-  "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview --port 8080"
-  },
-  "keywords": [],
-  "author": "yi.yang",
-  "license": "ISC",
-  "devDependencies": {
-    "vitepress": "1.0.0-rc.20",
-    "vue": "^3.3.4"
-  }
+    "name": "blog",
+    "version": "1.0.1",
+    "description": "I'm trying to get it",
+    "main": "index.js",
+    "homepage": "https://yyi0708.github.io/blog/",
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview --port 8080"
+    },
+    "keywords": [],
+    "author": "yi.yang",
+    "license": "ISC",
+    "devDependencies": {
+        "vitepress": "1.0.0-rc.20",
+        "vue": "^3.3.4"
+    }
 }
