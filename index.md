@@ -16,7 +16,7 @@ hero:
       text: back-end
       link: /docs/back-end/
     - theme: alt
-      text: testing
+      text: test
       link: /docs/test/
 features:
   - title: 前端
